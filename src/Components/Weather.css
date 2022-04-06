@@ -1,0 +1,12 @@
+
+
+@media screen and (max-width:991px){
+    .extra-containers{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:991px){
+    .extra-containers{
+        margin-top: 80px!important;
+    }
+}

@@ -1,0 +1,21 @@
+.header-container{
+    height: 9vh;
+    background-color: #f1c40f!important;
+    padding: 0 80px!important;
+    font-weight: 600;
+}
+
+#navbarSupportedContent ul{
+    display: flex;
+    justify-content: right;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header-container{
+        width: 100%!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+}

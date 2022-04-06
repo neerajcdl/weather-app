@@ -1,0 +1,64 @@
+.search-weather-container{ display: flex; justify-content: space-between; }
+
+.get-co-areas {
+    margin-top: 2px;
+}
+
+.cordinate-container form{
+    display: flex;
+}
+.getcoordinate-btn{
+    border: none;
+    background-color: #1B9CFC;
+    color: #fff;
+}
+.lon-cont{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.cordinate-search-btn{
+    margin-left: 2%;
+  
+}
+.getcoordinate-btn:focus{
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 576px) {
+    .cordinate-container form {
+        flex-direction: column;
+        width: 100%;
+    }
+    .get-co-areas {
+        width: 100%!important;
+    }
+    .lon-cont {
+        width: 100%!important;
+    }
+    .lon-cont {
+        margin-top: 0;
+        margin-left: 0!important;
+    }
+    .cordinate-search-btn {
+        margin-left: 0%!important;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 850px) {
+    .search-weather-container{ flex-direction: column; }
+
+    .controlsForm{ display: block; max-width: 100%; margin-bottom: 30px; }
+    .get-co-areas { width: 50%; }
+    .lon-cont { margin-top: 11px; width: 50%; }
+    .cordinate-search-btn { margin-top: 2px; }
+}
+@media screen and (max-width: 420px) {
+
+.lot-lon-serach-btn{ display: inline-block!important; width: 100%!important; }
+
+}
